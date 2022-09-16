@@ -1,0 +1,37 @@
+.navbar__menu {
+  list-style-type: none;
+  width: 500px !important;
+}
+
+.btn-danger {
+  height: 48px;
+  border-radius: 0;
+}
+
+.main-image {
+  background: url("../img/3792\ 1.svg");
+  height: 614px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  position: relative;
+}
+.active::after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: red;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.about-us h1 {
+  font-size: 50px;
+}
+
+.about-us h4 {
+  font-weight: bold;
+}
